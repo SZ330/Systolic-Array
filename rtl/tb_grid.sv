@@ -7,7 +7,7 @@
 // C = [ [19, 22],
 //       [43, 50] ]
 
-module tb_systolic_array;
+module tb_grid;
 
     localparam int ROWS   = 2;
     localparam int COLS   = 2;
@@ -32,11 +32,11 @@ module tb_systolic_array;
 
     initial begin
         //dump fsdb
-        $fsdbDumpfile("tb_systolic_array.fsdb");
+        $fsdbDumpfile("tb_grid.fsdb");
         $fsdbDumpvars("+all");
     end
 
-    systolic_array #(
+    grid #(
         .ROWS(ROWS),
         .COLS(COLS),
         .DATA_W(DATA_W),

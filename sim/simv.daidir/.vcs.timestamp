@@ -1,0 +1,131 @@
+0
+43
++define+FSDB
++itf+/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/data/eda_tools/synopsys/tools/vcs/X-2025.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libvirsim.so /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/liberrorinf.so /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libsnpsmalloc.so /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/data/eda_tools/synopsys/tools/verdi/X-2025.06/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/data/eda_tools/synopsys/tools/vcs/X-2025.06/include
+-Mxllcflags=
+-P
+-Xfile_begin_f=filelist.f
+-Xfile_end
+-Xhdlxmropt
+-Xufe=2steps
+-debug_access+pp+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-lca
+-o simv
+-picarchive
+-sverilog
+/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/bin/vcs1fe
+simv
+/data/eda_tools/synopsys/tools/verdi/X-2025.06/share/PLI/VCS/LINUX64/verdi.tab
+/homes/sz330/projects/Systolic-Array/rtl/pe.sv
+/homes/sz330/projects/Systolic-Array/rtl/grid.sv
+/homes/sz330/projects/Systolic-Array/rtl/controller.sv
+/homes/sz330/projects/Systolic-Array/rtl/tb_controller.sv
+67
+which_declare=declare -f
+_LMFILES__modshare=/usr/share/Modules/modulefiles/verdi/X-2025.06:1:/usr/share/Modules/modulefiles/vcs/X-2025.06:1
+_LMFILES_=/usr/share/Modules/modulefiles/vcs/X-2025.06:/usr/share/Modules/modulefiles/verdi/X-2025.06
+XDG_SESSION_ID=114
+XDG_RUNTIME_DIR=/run/user/1290693
+XDG_DATA_DIRS=/homes/sz330/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+VSCODE_IPC_HOOK_CLI=/run/user/1290693/vscode-ipc-13692b46-5034-4646-86eb-ebeeb262e4f6.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1290693/vscode-git-c8377def2e.sock
+VSCODE_GIT_ASKPASS_NODE=/home/sz330/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/sz330/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/data/eda_tools/synopsys/tools/verdi/X-2025.06
+VCS_PYTHON3=/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LCAMSG_PRINT_OFF=1
+VCS_INTERNAL_CONVERTEDLIBS=
+VCS_HOME=/data/eda_tools/synopsys/tools/vcs/X-2025.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64
+TERM_PROGRAM_VERSION=1.111.0
+TERM_PROGRAM=vscode
+S_COLORS=auto
+SSH_CONNECTION=10.18.65.15 61119 128.95.141.68 22
+SSH_CLIENT=10.18.65.15 61119 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_VHDL_WRAPPER_KDB=1
+SNPS_VCS_PYTHON3=/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+PATH_modshare=/usr/bin:1:/homes/sz330/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:1:/usr/share/Modules/bin:1:/usr/local/bin:1:/opt/dell/srvadmin/bin:1:/usr/condabin:1:/usr/lib64/ccache:1:/data/eda_tools/synopsys/tools/verdi/X-2025.06/bin:1:/home/sz330/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:1:/usr/sbin:1:/data/eda_tools/synopsys/tools/vcs/X-2025.06/bin:1:/homes/sz330/.local/bin:1:/homes/sz330/bin:1:/usr/local/sbin:1:/homes/sz330/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:1
+OVA_UUM=0
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+LOADEDMODULES_modshare=vcs/X-2025.06:1:verdi/X-2025.06:1
+LOADEDMODULES=vcs/X-2025.06:verdi/X-2025.06
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=KCM:
+HISTCONTROL=ignoredups
+GUESTFISH_RESTORE=\e[0m
+GUESTFISH_PS1=\[\e[1;32m\]><fs>\[\e[0;31m\] 
+GUESTFISH_OUTPUT=\e[0m
+GUESTFISH_INIT=\e[1;34m
+GIT_ASKPASS=/home/sz330/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1290693/bus
+CONDA_SHLVL=0
+COLORTERM=truecolor
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+0
+0
+8
+1748765798 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/packages/snps_msv_nettype_pkg/AN.DB
+1773859402 /homes/sz330/projects/Systolic-Array/rtl/tb_controller.sv
+1773856936 /homes/sz330/projects/Systolic-Array/rtl/controller.sv
+1773856922 /homes/sz330/projects/Systolic-Array/rtl/grid.sv
+1773821170 /homes/sz330/projects/Systolic-Array/rtl/pe.sv
+1773859369 filelist.f
+1748749539 /data/eda_tools/synopsys/tools/verdi/X-2025.06/share/PLI/VCS/LINUX64/verdi.tab
+1748747165 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/vcsdp_lite.tab
+4
+1748749132 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libvirsim.so
+1748748097 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/liberrorinf.so
+1748748087 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libsnpsmalloc.so
+1748748085 /data/eda_tools/synopsys/tools/vcs/X-2025.06/linux64/lib/libvfs.so
+1773859437 simv.daidir
+-1 partitionlib

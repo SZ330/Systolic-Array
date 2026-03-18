@@ -1,6 +1,6 @@
 // Systolic array grid
 
-module systolic_array #(
+module grid #(
     // Number of PE rows in the array. This also equals the number of A values injected from the left each cycle.
     parameter int ROWS   = 2,
 
